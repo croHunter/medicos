@@ -25,7 +25,7 @@
     #header ul {
         display: none;
     }
-    #header a {
+    #header .heading {
         color: #fff;
     }
     .nav-btn {
@@ -63,9 +63,7 @@
     .btn-wrapper {
         max-width: 90%;
         margin: 0 auto;
-    }
-    .btn-contact-us {
-        margin-top: 15px;
+        margin-top: 40px;
     }
     #section-two {
         text-align: center;

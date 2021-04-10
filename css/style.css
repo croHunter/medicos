@@ -69,10 +69,10 @@ h4 {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 20px;
+    padding: 0 20px;
 }
 
-#header a {
+#header .heading {
     text-decoration: none;
     cursor: pointer;
     color: #191970;
@@ -92,7 +92,7 @@ h2 span {
     align-items: center;
     list-style: none;
     text-align: center;
-    margin-right: -66px;
+    margin-right: -60px;
 }
 
 #header ul li {
@@ -113,6 +113,7 @@ h2 span {
     height: 100%;
     cursor: pointer;
     color: #2f4f4f;
+    font-size: 0.8rem;
 }
 
 .btn {
@@ -181,6 +182,10 @@ main {
     justify-content: center;
 }
 
+.btn-wrapper {
+    margin-top: 40px;
+}
+
 .btn-contact-us {
     align-self: flex-start;
     margin-top: 50px;
@@ -228,17 +233,13 @@ figure {
 }
 
 .btn-contact {
+    display: block;
     border-radius: 10px;
     background: #d4ebf2;
-    white-space: nowrap;
     padding: 10px 38px;
     color: #000089;
     font-size: 16px;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.2s linear;
+    margin-top: 15px auto;
 }
 
 .btn-contact:hover {
@@ -259,6 +260,10 @@ figure {
     display: flex;
     flex-direction: row;
     margin-top: 50px;
+}
+
+.step {
+    padding: 30px;
 }
 
 .icon-pad {
