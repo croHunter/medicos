@@ -1,0 +1,85 @@
+/* media queries */
+
+@media screen and (max-width:480px) {
+    #header {
+        background-color: #000089;
+        padding: 100px 20px;
+        padding-top: 20px;
+    }
+    .nav-fig {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .main-header i {
+        display: inline;
+    }
+    #header ul {
+        display: none;
+    }
+    #header a {
+        color: #fff;
+    }
+    .nav-btn {
+        display: none;
+    }
+    main {
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        margin-top: -50px;
+        background-color: #F7F9F9;
+    }
+    /* section one */
+    #section-one {
+        flex-direction: column;
+    }
+    #section-one .available-doctors {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 90%;
+        margin: 0 auto;
+        background-color: #fff;
+        border-radius: 10%;
+    }
+    .features {
+        grid-template-columns: 1fr;
+        align-self: center;
+        width: 90%;
+        margin-top: 50px;
+    }
+    .sec-one-icon-bg {
+        background-color: #D6EAF8;
+    }
+    #header .sec-one-icon-bg {
+        background-color: #fff;
+    }
+    #section-one aside {
+        display: none;
+    }
+    .btn-wrapper {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .btn-contact-us {
+        margin-top: 15px;
+    }
+    #section-two {
+        text-align: center;
+    }
+    #section-two .steps {
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    #section-two h2 {
+        font-size: 1.4rem;
+    }
+    .ftr h3 {
+        font-size: 1rem;
+    }
+    .ftr span {
+        font-size: 1rem;
+    }
+}

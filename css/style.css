@@ -1,0 +1,288 @@
+html {
+    box-sizing: border-box;
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+html::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    background-color: #fff;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Header section */
+
+p {
+    font-size: 0.8rem;
+    color: #808080;
+    margin-top: 5px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 0;
+    color: #000029;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.main-header {
+    margin: 0;
+}
+
+.green-header, h2 span {
+    color: #01bf71;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #2f4f4f;
+    margin-bottom: 0;
+}
+
+.blue-header {
+    color: #000089;
+}
+
+h4 {
+    font-size: 0.8rem;
+    color: #2f4f4f;
+    margin-bottom: 0;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+#header a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #191970;
+}
+
+.nav-fig {
+    display: none;
+}
+
+h2 span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    margin-right: -66px;
+}
+
+#header ul li {
+    height: 80px;
+    transition: all 0.3s linear;
+}
+
+#header ul li:hover {
+    border-bottom: 5px solid #2f4f4f;
+}
+
+#header ul li a {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+    color: #2f4f4f;
+}
+
+.btn {
+    border-radius: 50px;
+    background: #000089;
+    white-space: nowrap;
+    padding: 14px 48px;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #0000ff;
+}
+
+.main-header i {
+    display: none;
+}
+
+/* Main section */
+
+/* section one */
+
+main {
+    padding: 0 20px;
+}
+
+#section-one {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
+    row-gap: 1rem;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+}
+
+.icon-space, .sec-one-icon-bg {
+    margin-right: 15px;
+}
+
+.sec-one-icon-bg {
+    padding: 10px;
+    color: #000089;
+    border-radius: 20%;
+}
+
+#section-one article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-contact-us {
+    align-self: flex-start;
+    margin-top: 50px;
+}
+
+#section-one aside {
+    position: relative;
+}
+
+.aside-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #A9A9A9;
+}
+
+figure {
+    margin: 0;
+}
+
+#section-one figure, #section-one .big-img {
+    border-radius: 0 15% 0 15%;
+}
+
+.small-img {
+    border-radius: 50%;
+    max-width: 40px;
+    margin-right: 10px;
+}
+
+#section-one .doctor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#section-one .available-doctors {
+    position: absolute;
+    right: -100px;
+    z-index: 10;
+    bottom: 10%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10% 0 10% 0;
+}
+
+.btn-contact {
+    border-radius: 10px;
+    background: #d4ebf2;
+    white-space: nowrap;
+    padding: 10px 38px;
+    color: #000089;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.btn-contact:hover {
+    color: #fff;
+    background-color: #000089;
+}
+
+/* section two */
+
+#section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+}
+
+#section-two .steps {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.icon-pad {
+    padding: 15px;
+    color: #000089;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding: 100px 20px 50px 20px;
+}
+
+.ftr {
+    text-align: center;
+}
+
+.ftr span {
+    font-size: 24px;
+}
